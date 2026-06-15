@@ -69,54 +69,54 @@ const SettingsMenu = () => {
               icon={<DrawIcon />}
               selected={location.pathname.startsWith('/settings/geofence')}
             />
-            {!features.disableGroups && (
+            {/* {!features.disableGroups && (
               <MenuItem
                 title={t('settingsGroups')}
                 link="/settings/groups"
                 icon={<FolderIcon />}
                 selected={location.pathname.startsWith('/settings/group')}
               />
-            )}
-            {!features.disableDrivers && (
+            )} */}
+            {/* {!features.disableDrivers && (
               <MenuItem
                 title={t('sharedDrivers')}
                 link="/settings/drivers"
                 icon={<PersonIcon />}
                 selected={location.pathname.startsWith('/settings/driver')}
               />
-            )}
-            {!features.disableCalendars && (
+            )} */}
+            {/* {!features.disableCalendars && (
               <MenuItem
                 title={t('sharedCalendars')}
                 link="/settings/calendars"
                 icon={<TodayIcon />}
                 selected={location.pathname.startsWith('/settings/calendar')}
               />
-            )}
-            {!features.disableComputedAttributes && (
+            )} */}
+            {/* {!features.disableComputedAttributes && (
               <MenuItem
                 title={t('sharedComputedAttributes')}
                 link="/settings/attributes"
                 icon={<CalculateIcon />}
                 selected={location.pathname.startsWith('/settings/attribute')}
               />
-            )}
-            {!features.disableMaintenance && (
+            )} */}
+            {/* {!features.disableMaintenance && (
               <MenuItem
                 title={t('sharedMaintenance')}
                 link="/settings/maintenances"
                 icon={<BuildIcon />}
                 selected={location.pathname.startsWith('/settings/maintenance')}
               />
-            )}
-            {!features.disableSavedCommands && (
+            )} */}
+            {/* {!features.disableSavedCommands && (
               <MenuItem
                 title={t('sharedSavedCommands')}
                 link="/settings/commands"
                 icon={<SendIcon />}
                 selected={location.pathname.startsWith('/settings/command')}
               />
-            )}
+            )} */}
           </>
         )}
         {billingLink && (
